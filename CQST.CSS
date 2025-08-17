@@ -1,274 +1,152 @@
- #body {
-   color: rgb(233, 26, 26);
-   background-color: rgb(139, 160, 160);
-   height: 100px;
-   padding: 100px;
-   font-family: Arial, Helvetica, sans-serif;
-   width: 10px;
- }
+<!DOCTYPE html>
+<html lang="en">
 
- #header {
-   color: #cd5233;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 10px 20px;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: x-large;
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Qoutient</title>
+  <link rel="stylesheet" href="CQST.CSS">
+</head>
 
- }
+<body>
+  <div id="kartik">
+    <section id="header">
+      <div class="logo">
+      <img src="ooo.png">
+      </div>
+      <div class="hacker">CodeQuoitent</div>
+      <div><a href="https://codequotient.com/cq-ai-program"> CQ Ai Programs</a>
+        <a href="https://codequotient.com/cqst">School of Technology</a>
+        <a href=" https://codequotient.com/for-universities">For Universities</a>
+        <a href="https://codequotient.com/about">About us </a>
+        <a href="https://codequotient.com/login" button class="login-button">Login</button></a>
+      </div>
 
- #header a {
-   color: rgb(190, 12, 12);
-   margin-right: 10px;
-   text-decoration: none;
-   font-size: large;
-   padding-right: 30px;
-
- }
-  .hacker:hover {
-  
-  transform: scale(1.3);
-   transition: 3s ease;
-   transition-delay: 0.1s;
-  }
-
-
- .login-button {
-   height: 20px;
-   color: rgb(219, 33, 33);
-   border: 1px;
-
- }
-
- .login-button:hover {
-   background-color: rgb(168, 243, 111);;
-   transition: 2s ease;
-
- }
-
- #div1 {
-   font-size: xx-large;
-   font-family: Arial, Helvetica, sans-serif;
-   color: #259dbb;
-   margin-right: 50px;
-
- }
-
- .logo img {
-
-   width: 50px;
-   height: 50px;
-   border-radius: 2px;
+    </section>
+    <div class="cvs">
+     <strong> Building Ai Talent</strong>
+    </div>
+    <div id="div2">
+     <strong>for the world</strong>
+    </div>
+    <div class="kartik">
+      <img src="img.webp" alt="code quotient">
+    </div>
+    <div class="paragraph">
+      <P><span><strong>We invest in India's talent potential<br> and integrate them into the world's <br>best tech companies</strong></span></P>
+    </div>
+ <button class="mission-button">We are on a mission</button>
+  </div>
 
 
- }
+  <div class="para">
+    <p>We are on a mission to make India the talent<br>
+      capital of the world by tapping into the<br>
+      untapped talent potential.</p>
+  </div>
+  <nav class="nav">
+    <h2>CodeQuotient Impact That Makes Us Proud</h2>
+  </nav>
 
- .cvs {
-  margin-top: 10px;
-  margin-left: 150px;
-   padding-right: 20px ;
-   color: rgb(253, 120, 11);
-   font-size: xx-large;
-   font: 800px;
-   font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
- }
- .mission-button:hover:hover {
-   background-color: rgb(22, 171, 235);
-   transition: 2s ease;
-      transition: none;
-      
+  <div class="year">
+    Over the past 10+ years, we've proudly impacted many lives in our journey of meaningful <br>change and growth.</div>
 
-  }
+  <br><br>
+  </div>
+
+  <div class="india">
+    <img src="2025-08-12 (3).png" alt="india map">
+  </div>
+  </div>
+  <div class="king">
+    <div class="div5">
+      <p class="count">150+</p>
+      <p>Partner Companies</p>
+      <p>Aligned with our<br> mission, running <br>talent development<br> programs to build
+        their talent pool.</p>
+
+    </div>
+    <div class="div6">
+      <p class="cmp">1000+</p>
+      <p>SuperCoders Deployed </p>
+      <p>Who have trusted us,<br> developed their skills<br> and are now<br> contributing to
+        global<br> tech companies.</p>
+    </div>
+    <nav class="div7">
+      <p class="tech">10+</p>
+      <p>Tech Domains</p>
+      <p>Supporting our partner<br>companies across the range of<br> technologies - AI/ML, Full
+        Stack, Data Science, Cloud<br> Computing, and more<br></p>
+    </nav>
+    <div class="div8">
+      <p class="red">600+</p>
+      <p>Partner Institutes</p>
+      <p>Across Tier 2/3 cities, which<br> helps us in tapping the talented<br>students from these cities.</p>
+    </div>
+  </div>
+  <nav class="codder">
+    <h2>From innovative startups to top tech companies,<br>
+      our SuperCoders are writing the code behind their success</h2>
+  </nav>
+  </div>
+  <div class="uk">
+    <img src="2025-08-12 (6).png" alt="uk">
+  </div>
+  <div class="us">
+    <img src="2025-08-12 (8).png" alt="us">
+  </div>
+
  
- .mission-button{
-   background-color: #cd5233;
-   color: #fff;
-   border: #e76f51;
-   padding: 10px 20px;
-   cursor: pointer;
-   font-weight: bold;
-   margin-left: 135px;
-   border-radius: 5px;
 
-   font-size: 15px;
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>CodeQuotient</h3>
+        <p>Building AI Talent for the World.<br>
+        We invest in India’s talent potential and integrate them into the world’s best tech companies.</p>
+        <div class="footer-icons">
+          <span><a href="https://www.youtube.com/@CodeQuotient">▶YouTube</a></span>
+          <span><a href="https://x.com/CodeQuotient">𝕏</a></span>
+          <span><a href="https://in.linkedin.com/school/codequotient/">ℹ️</a></span>
+          <span><a href="https://github.com/codequotient">🔗</a></span>
+        </div>
+        <p>Write to us at<br>
+        <strong>info@codequotient.com</strong></p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <p>
+          <a href="https://codequotient.com/cq-ai-program">CQ AI Program</a><br>
+          <a href="https://codequotient.com/cqst">School of Technology</a><br>
+          <a href="https://codequotient.com/for-universities">For Universities</a><br>
+          <a href="https://codequotient.com/about">About Us</a><br>
+          <a href="https://codequotient.com/blog/">Blog</a>
+        </p>
+      </div>
+      <div class="footer-section footer-contact">
+        <h3>Contact Us</h3>
+        <strong>Head Office:</strong>
+        <address>
+          CodeQuotient Pvt Ltd Plot No 12A, HSIIDC IT Park,<br>
+          Sector 22, Panchkula, Haryana.<br>
+          134109
+        </address>
+        <strong>Campus:</strong>
+        <address>
+          CodeQuotient School of Technology, Simla Molana Road,<br>
+          Sector 40, NH 44, Panipat, Haryana - 132103
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © CodeQuotient. All rights reserved.
+      <a href="https://codequotient.com/privacy-policy">Privacy Policy</a>  <a href="https://codequotient.com/terms-and-conditions"> Terms of Service</a>
+    </div>
+  </footer>
+</body>
+</html>
 
- }
- .kartik{
- 
-    display: flex;
- justify-content:center;
- height: 450px;
- width: 200px;
- padding-left: 600px;
- margin-left: 280px;
- }
- 
-  .paragraph {
-  margin-top:-390px;
-  margin-left:100px;
-  display: flex;
-   font-size: x-large;
-   padding-left: 20px;
-   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- }
+</body>
+</body>
 
- #div2 {
-   color: black;
-   font-size: xx-large;
-   font-weight: bolder;
-   margin-left: 210px;
- }
-
- .para {
-   font-size: xx-large;
-   font-family: IBM Plex Sans', sans-serif';
-   text-align: center;
-   margin-top: 200px;
-
-
- }
-
- .nav {
-   font-size: x-large;
-   text-align: center;
-   color: aqua;
-   text-decoration: #cd5233;
-   transform: 2s ease;
- }
-
- .year {
- 
-   font-size: larger;
-   font-family: serif;
-   text-align: center;
-   color: black;
- }
-
-
- .codder {
-
-   color: black;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   display: flex;
-   justify-content: center;
-   text-align: right;
-
- }
-
- #university-logos {
-   border-image-outset: 2px;
-   width: 5px;
-   height: 5px;
-   border-radius: 1px;
- }
-
- .count {
-   height: 20px;
-   font-size: xx-large;
-   width: 50px;
-   padding-left: 50px;
-   color: #e9451c;
- }
-
- .cmp {
-   height: 20px;
-   width: 50px;
-   font-size: xx-large;
-   padding-left: 10px;
-
-   color: #e9d51c;
- }
-
- .tech {
-   height: 20px;
-   font-size: x-large;
-   width: 50px;
-   padding-left: 50px;
-   font-size: xx-large;
-   color: #e9451c;
- }
-
- .red {
-   height: 20px;
-   width: 50px;
-   padding-left: 50px;
-   font-size: xx-large;
-   color: rgb(240, 240, 24);
- }
-
- .div5 {
-   font-size: large;
-   border-right: dotted;
-   padding-left: 50px;
-   margin-left: 20px;
-   margin-right: 50px;
-   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- }
-
- .div6 {
-   font-size: large;
-   border-right: dotted;
-   padding-left: 20px;
-  margin-left: 10px;
-    margin-right: 10px;
-   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- }
-
- .div7 {
-   font-size: large;
-   border-right: dotted;
-   padding-left: 20px;
-   margin-left: 20px;
-     margin-right: 20px;
-   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- }
-
- .div8 {
-   font-size: large;
-   border-right: dotted;
-   padding-left: 10px;
-   margin-left: 20px;
-   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- }
-
- .king {
-   display: flex;
-   justify-content: center;
- }
-
- .pc{
-   display: flex;
-   justify-content: center;
-  line-height: normal;
-  padding-top: 50px
-
- }
-
- .header div image {
-   margin-top: -20px;
- }
-
-
- .india{
-  padding-right: 50px;
-  display: flex;
-  justify-content: center;
- }
-
-.uk{
-  display: flex;
- justify-content: center;
- }
- .us{
-   display: flex;
- justify-content: center;
- }
-
-  .foo{
-    size: 100%;
-       display: flex;
- justify-content:center;
-
-  }
-  
+</html>
